@@ -17,8 +17,8 @@ import pandas as pd
 #veriler = pd.read_csv('D:\denizkulagid.csv')
 #x = veriler.iloc[:, 1:].values
 #y = veriler.iloc[:, 0].values
-
-veriler = pd.read_csv('D:\Wine.csv')
+csv_dosya = None
+veriler = pd.read_csv(csv_dosya)
 x = veriler.iloc[:, 0:13].values
 y = veriler.iloc[:, 13].values
 

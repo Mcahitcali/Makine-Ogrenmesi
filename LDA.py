@@ -7,8 +7,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-
-veriler = pd.read_csv('D:\denizkulagi.csv')
+csv_dosya = None
+veriler = pd.read_csv(csv_dosya)
 x = veriler.iloc[:, 1:].values
 y = veriler.iloc[:, 0].values
 
